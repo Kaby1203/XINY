@@ -76,14 +76,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? PedidosAdminWidget() : ProductoWidget(),
+          appStateNotifier.loggedIn ? EnvioWidget() : PedidosAdminWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => appStateNotifier.loggedIn
-              ? PedidosAdminWidget()
-              : ProductoWidget(),
+          builder: (context, _) =>
+              appStateNotifier.loggedIn ? EnvioWidget() : PedidosAdminWidget(),
         ),
         FFRoute(
           name: HomeCatalogoWidget.routeName,
@@ -284,7 +283,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.uri.toString());
-            return '/producto';
+            return '/pedidosAdmin';
           }
           return null;
         },

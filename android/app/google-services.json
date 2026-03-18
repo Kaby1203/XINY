@@ -1,13 +1,32 @@
 {
   "project_info": {
-    "project_number": "520108333720",
-    "project_id": "tienda-x-i-n-y-ypl2cw",
-    "storage_bucket": "tienda-x-i-n-y-ypl2cw.firebasestorage.app"
+    "project_number": "45191967598",
+    "project_id": "supermercado-abphot",
+    "storage_bucket": "supermercado-abphot.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:520108333720:android:accf2de3250fed496b0eed",
+        "mobilesdk_app_id": "1:45191967598:android:bf5d2388b9b40f684d077f",
+        "android_client_info": {
+          "package_name": "com.mycompany.supermercado"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDH8VHraEojbY3U-eOTft_R-eMyO1y8rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45191967598:android:b56bac1dfa9b0bd64d077f",
         "android_client_info": {
           "package_name": "com.mycompany.tiendaxiny"
         }
@@ -15,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC_nnAj7gbD-UL6-foQGkVlrfrp2bYrAkQ"
+          "current_key": "AIzaSyBDH8VHraEojbY3U-eOTft_R-eMyO1y8rs"
         }
       ],
       "services": {

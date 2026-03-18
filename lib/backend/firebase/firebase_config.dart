@@ -5,12 +5,12 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyDWfo-4XujHLHwZFiV-exjCcR7RcxatZak",
-            authDomain: "tienda-x-i-n-y-ypl2cw.firebaseapp.com",
-            projectId: "tienda-x-i-n-y-ypl2cw",
-            storageBucket: "tienda-x-i-n-y-ypl2cw.firebasestorage.app",
-            messagingSenderId: "520108333720",
-            appId: "1:520108333720:web:4e98ae07579933106b0eed"));
+            apiKey: "AIzaSyBRENL3u7iWcaaUyfFZFpacvytZ2-Xr34c",
+            authDomain: "supermercado-abphot.firebaseapp.com",
+            projectId: "supermercado-abphot",
+            storageBucket: "supermercado-abphot.firebasestorage.app",
+            messagingSenderId: "45191967598",
+            appId: "1:45191967598:web:6d7bf95fca49c86b4d077f"));
   } else {
     await Firebase.initializeApp();
   }

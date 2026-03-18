@@ -64,39 +64,6 @@ class _PedidosAdminWidgetState extends State<PedidosAdminWidget> {
           title: Row(
             mainAxisSize: MainAxisSize.max,
             children: [
-              Container(
-                width: 36.0,
-                height: 36.0,
-                decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).primaryText,
-                  borderRadius: BorderRadius.circular(6.0),
-                ),
-                child: Align(
-                  alignment: AlignmentDirectional(0.0, 0.0),
-                  child: Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'X',
-                      textAlign: TextAlign.center,
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.inter(
-                              fontWeight: FontWeight.w800,
-                              fontStyle: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.white,
-                            fontSize: 18.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w800,
-                            fontStyle: FlutterFlowTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
-                    ),
-                  ),
-                ),
-              ),
               Text(
                 'XINY',
                 style: FlutterFlowTheme.of(context).headlineSmall.override(
@@ -545,8 +512,11 @@ class _PedidosAdminWidgetState extends State<PedidosAdminWidget> {
                                               size: 16.0,
                                             ),
                                             Text(
-                                              listViewPedidosRecord
-                                                  .nombreCliente,
+                                              valueOrDefault<String>(
+                                                listViewPedidosRecord
+                                                    .nombreCliente,
+                                                'Kaby',
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -611,8 +581,11 @@ class _PedidosAdminWidgetState extends State<PedidosAdminWidget> {
                                               size: 16.0,
                                             ),
                                             Text(
-                                              listViewPedidosRecord
-                                                  .telefonoCliente,
+                                              valueOrDefault<String>(
+                                                listViewPedidosRecord
+                                                    .telefonoCliente,
+                                                '25914390',
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -656,8 +629,11 @@ class _PedidosAdminWidgetState extends State<PedidosAdminWidget> {
                                               size: 16.0,
                                             ),
                                             Text(
-                                              listViewPedidosRecord
-                                                  .direccionEnvio,
+                                              valueOrDefault<String>(
+                                                listViewPedidosRecord
+                                                    .direccionEnvio,
+                                                'kfeng@gmail.com',
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium

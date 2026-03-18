@@ -320,7 +320,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                     .bodySmall
                                                     .fontStyle,
                                           ),
-                                          color: Color(0xFFBDBDBD),
+                                          color: Colors.black,
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight:
@@ -384,6 +384,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
+                                        color: Colors.black,
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)
@@ -418,7 +419,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                     .bodySmall
                                                     .fontStyle,
                                           ),
-                                          color: Color(0xFFBDBDBD),
+                                          color: Colors.black,
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight:
@@ -482,6 +483,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
+                                        color: Colors.black,
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)
@@ -516,7 +518,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                     .bodySmall
                                                     .fontStyle,
                                           ),
-                                          color: Color(0xFFBDBDBD),
+                                          color: Colors.black,
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight:
@@ -580,6 +582,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
+                                        color: Colors.black,
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)
@@ -687,7 +690,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                     .bodySmall
                                                     .fontStyle,
                                           ),
-                                          color: Color(0xFFBDBDBD),
+                                          color: Colors.black,
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight:
@@ -751,6 +754,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
+                                        color: Colors.black,
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)
@@ -785,7 +789,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                     .bodySmall
                                                     .fontStyle,
                                           ),
-                                          color: Color(0xFFBDBDBD),
+                                          color: Colors.black,
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight:
@@ -849,6 +853,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
+                                        color: Colors.black,
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)
@@ -883,7 +888,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                     .bodySmall
                                                     .fontStyle,
                                           ),
-                                          color: Color(0xFFBDBDBD),
+                                          color: Colors.black,
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight:
@@ -947,6 +952,7 @@ class _EnvioWidgetState extends State<EnvioWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
+                                        color: Colors.black,
                                         fontSize: 14.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)

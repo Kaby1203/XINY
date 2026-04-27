@@ -113,6 +113,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: PedidosAdminWidget.routeName,
           path: PedidosAdminWidget.routePath,
           builder: (context, params) => PedidosAdminWidget(),
+        ),
+        FFRoute(
+          name: LoginRegistroWidget.routeName,
+          path: LoginRegistroWidget.routePath,
+          builder: (context, params) => LoginRegistroWidget(),
+        ),
+        FFRoute(
+          name: TresWidgetsWidget.routeName,
+          path: TresWidgetsWidget.routePath,
+          builder: (context, params) => TresWidgetsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
